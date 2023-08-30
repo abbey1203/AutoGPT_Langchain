@@ -13,7 +13,7 @@ os.environ['OPENAI_API_KEY'] = apikey
 
 # App framework
 st.title('🎼 Music GPT Generator 🎸')
-prompt = st.text_input('Plug in your prompt here') 
+prompt = st.text_input('Write a topic for your song') 
 
 # Prompt templates
 title_template = PromptTemplate(
